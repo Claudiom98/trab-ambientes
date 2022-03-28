@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contato</title>
+	<style>
+	body {
+	  background-image: url('fundo2.png');
+	}
+	</style>
+</head>
+
+<body>
+	<p style="text-align:right;"><img src='logolorem.png' style="float:left;"> <br><a href="home.html">Home</a> | <a href="qs.html">Quem somos</a> | <a href="contato.html">Contato</a>
+	
+	</p><br>
+	
+	
+	<h1>Entre em contato</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet mollis nisl.<hr></p>
+	<form action = "mailto:claudiom@edu.unifor.br" method="GET">
+	  <label for="assu">Assunto:</label><br>
+	  <input type="text" id="assu" name="assu"><br>
+	  <label for="cont">Seu contato (e-mail / Phone):</label><br>
+	  <input type="text" id="cont" name="cont"><br>
+	  <label for="des">Descricao:</label><br>
+	  <textarea name="des" rows="2" cols="20"></textarea><br>
+	  <input type="submit" value="Enviar">
+	  
+	</form>
+
+	<footer>
+	<p style="text-align:center"><b>Todos os direitos reservados</b><hr></p>
+	</footer>
+</body>
